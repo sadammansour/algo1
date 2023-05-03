@@ -1,0 +1,25 @@
+ALGORITHM algo1
+VAR
+   v:integer=0;
+   w:intrger=0;
+   c:integer=0;
+   str:string=0;
+   i:integer=0;
+BEGIN
+read
+ WHILE (str[i]!=".") DO
+
+   IF (str[i]=="a","e","i","o","u","y") THEN
+    v=v+1
+END_IF
+   
+   IF (str[i]==" ") THEN
+     w=w+1
+   END_IF
+  
+  IF (str[i]=="integer") THEN
+    c=c+1
+  END_IF
+   
+  
+END
